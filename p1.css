@@ -1,30 +1,36 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 nav{
-    height: 72px;
-    width: 100vw;
+    /* height: 72px; */
+    
     display: flex;
-   
-}
-#text{
-     margin-left: 200px; 
-    display: flex;
-    margin-top: 15px;
-    padding: 10px;
     justify-content: center;
- 
+   width: 50%;
 }
-.a{
+ header #text{
+   width: 405px;
+  /* justify-self: center; */]
+  
+}
+/* #text {
     text-decoration: none;
-}
-#image{
-    padding: 15px;  
-}
+    color: rgba(18, 51, 81, 0.65);
+} */
 #text a{
     margin-right: 35px;
     text-decoration: none;
     font-size: 25;
+    color: rgba(18, 51, 81, 0.65);
+    font-size: ;
 }
-#text a
+#text a:hover {
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
