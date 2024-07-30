@@ -5,7 +5,7 @@
 }
 body{
     background-color:#f5f7fa;
-    height: 200vh;
+    /* height: 500vh; */
 }
 
 header{
@@ -46,11 +46,51 @@ color: rgba(18, 51, 54, 0.65);
 
 .nav2 img{
     margin: 23px 0 0 31px;
+    margin-right: 52%;
 }
 
 .nav2 .container {
     display: flex;
 }
 .nav2 .container nav {
- text-align: center;
+ /* background-color: rgb(179, 33, 142); */
+ height: 40px;
+ text-decoration: none;
+ padding-top: 20px;
+ align-items: center;
+
+}
+.nav2 .container nav a{
+    text-decoration: none;
+   margin-left: 25px;
+   justify-self: center;
+
+}
+.nav2 .container nav button{
+    background-color: rgb(248, 247, 247);
+    margin-left: 20px;
+    height: 20px;
+    width: 70px;
+}
+main .freebox{
+    height: 140px;
+    width: 100%;
+}
+main .main1{
+    /* background-color: aqua; */
+    align-items: center;
+    /* width: 486px; */
+    height: 410px;
+    margin: 0 auto;
+    text-align: center;
+    /* padding-top: 50px; */
+    font-size: 30px;
+    letter-spacing: -.034em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: rgba(18, 51, 54, 0.85);
+}
+article {
+    background-color: black;
+    height: 500px;
+    width: 500px;
 }
